@@ -1,0 +1,26 @@
+Dependencies for Project 'mini_project_2', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532CA892)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\LCD.c)(0x69BA07A9)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532CA8A8)
+I (lcd_defines.h)(0x69B87E2C)
+I (LCD.h)(0x699A9559)
+F (.\kpm.c)(0x69BA1BCB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532CA8A8)
+I (kpm_defines.h)(0x69B5DA14)
+I (LCD.h)(0x699A9559)
+I (lcd_defines.h)(0x69B87E2C)
+F (.\eint0_eint1_irq_test.c)(0x69B8172B)()
+F (.\project.c)(0x69BAB728)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\project.o --omf_browse .\project.crf --depend .\project.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532CA8A8)
+I (kpm_defines.h)(0x69B5DA14)
+I (lcd_defines.h)(0x69B87E2C)
+I (LCD.h)(0x699A9559)
+I (rtc_main.h)(0x69B74CD9)
+I (types.h)(0x69B5D6DE)
+F (.\rtc.c)(0x69B9DEA1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532CA8A8)
+I (kpm_defines.h)(0x69B5DA14)
+I (lcd_defines.h)(0x69B87E2C)
+I (rtc_main.h)(0x69B74CD9)
+I (types.h)(0x69B5D6DE)
+I (LCD.h)(0x699A9559)
