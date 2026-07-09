@@ -52,7 +52,7 @@ Configuration mode is entered using **External Interrupt 0 (EINT0)**, while **Ex
 
 <p align="center">
 
-<img src="images/image3.png" width="800"/>
+<img src="images/system architecture.png" width="800"/>
 
 </p>
 
