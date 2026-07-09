@@ -210,7 +210,7 @@ Medicine-Reminder-System-using-LPC2148
 | ![](images/hardware_setup.jpg) | ![](images/lcd_output.jpg) |
 <p align="center">
 
-<img src="images/software workflow.png" width="750"/>
+<img src="images/image1.png" width="750"/>
 
 </p>
 
