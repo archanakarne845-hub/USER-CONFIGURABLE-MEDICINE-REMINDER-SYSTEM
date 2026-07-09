@@ -6,7 +6,9 @@ The User-Configurable Medicine Reminder System is an embedded healthcare applica
 The current date and time are displayed on a 16×2 LCD. Whenever the RTC matches a stored medicine schedule, the controller displays "Take Medicine Now" on the LCD and activates a buzzer. The user can acknowledge the reminder by pressing a switch connected to External Interrupt 1 (EINT1). If no acknowledgment is received within one minute, the reminder automatically stops and the system resumes normal RTC monitoring.
 
 The configuration mode is entered through External Interrupt 0 (EINT0), allowing the user to modify the RTC date, time, day, and medicine schedules without stopping the system.
+
 🎯 Project Objectives
+
 Display real-time date and time using the LPC2148 RTC.
 Allow users to edit RTC time, date, and day.
 Configure up to three medicine reminder schedules.
