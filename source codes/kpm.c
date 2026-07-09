@@ -11,17 +11,26 @@ unsigned char KPMLUT[4][4]={{'7','8','9','/'},
 															{'4','5','6','*'},
 															{'1','2','3','-'},
 															{'c','0','=','+'}};
-
+//--------------------------------------------------------
+// Initializes keypad by configuring row pins as outputs
+//--------------------------------------------------------
 void InitKPM(void)
 {
 	IODIR1=15<<ROW0;
 }
 
+//--------------------------------------------------------
+// Checks whether any key is pressed
+// Returns 0 if pressed, 1 if no key is pressed
+//--------------------------------------------------------
 int colscan(void)
 {
 	return ((((IOPIN1>>COL0)&15)<15)?0:1);
 }
 
+//--------------------------------------------------------
+// Identifies the row in which the key is pressed
+//--------------------------------------------------------
 int RowCheck(void)
 {
 	int rno;
@@ -38,6 +47,9 @@ int RowCheck(void)
 	return rno;
 }
 
+//--------------------------------------------------------
+// Identifies the column in which the key is pressed
+//--------------------------------------------------------
 int ColCheck(void)
 {
 	int cno;
@@ -50,6 +62,10 @@ int ColCheck(void)
 	}
 	return cno;
 }
+
+//--------------------------------------------------------
+// Scans keypad and returns the pressed key
+//--------------------------------------------------------
 char keyScan(void)
 {
 	int rno,cno,keyv;
@@ -71,6 +87,9 @@ char keyScan(void)
 	return keyv;
 }
 
+//--------------------------------------------------------
+// Reads an n-digit number from the keypad
+//--------------------------------------------------------
 int ReadNum(int n)
 {
 	char key;
@@ -78,26 +97,34 @@ int ReadNum(int n)
 	for(;n>0;)
 	{
 		key=keyScan();
+
+		//if numeric key is pressed
 		if(key>='0' && key<='9')
 		{
-			charLCD(key);
+			charLCD(key); //Display digit
 			sum=(sum*10) + (key - '0');
 			i++;
 			n--;
 		}
+
+		//If Clear key is pressed
 		else if(key=='c')
 		{
 			if(i>0)
 			{
 				i--;
 				n++; //allow to rentry the digit
-				sum=sum/10;
-			cmdLCD(DISP_ON_CUR_BLINK);
-			cmdLCD(SHIFT_CUR_LEFT);
-			charLCD('0');
-			cmdLCD(SHIFT_CUR_LEFT);
+				sum=sum/10;//Remove last digit
+
+				//Erase last digit from LCD
+				cmdLCD(DISP_ON_CUR_BLINK);
+				cmdLCD(SHIFT_CUR_LEFT);
+				charLCD('0');
+				cmdLCD(SHIFT_CUR_LEFT);
 			}
-		}			
+		}
+		
+		//Invalid key pressed		
 		else
 		{
 			cmdLCD(CLEAR_LCD);
@@ -110,6 +137,7 @@ int ReadNum(int n)
 	}
 	return sum;
 }
+
 
 
 
