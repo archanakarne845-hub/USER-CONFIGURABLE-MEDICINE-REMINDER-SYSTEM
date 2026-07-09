@@ -153,7 +153,11 @@ Example:
 
 ---
 # 🔔Alert configuration
+<p align="center">
 
+<img src="images/system architecture.png" width="800"/>
+
+</p>
 # 🔔 Reminder Process
 
 <p align="center">
