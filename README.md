@@ -179,42 +179,8 @@ Example:
 
 ---
 
-# 📂 Project Structure
-
-```text
-Medicine-Reminder-System-using-LPC2148
-│
-├── README.md
-├── Source_Code
-│   ├── main.c
-│   ├── lcd.c
-│   ├── rtc.c
-│   └── kpm.c
-│
-├── Header_Files
-│   ├── LCD.h
-│   ├── rtc_main.h
-│   ├── lcd_defines.h
-│   └── kpm_defines.h
-│
-├── Images
-│   ├── system_architecture.png
-│   ├── block_diagram.png
-│   ├── hardware_setup.jpg
-│   ├── lcd_output.jpg
-│   └── flowchart.png
-│
-└── Documents
-    └── Project_Report.pdf
-```
-
----
-
 # 📸 Project Gallery
 
-| Hardware | LCD Output |
-|-----------|------------|
-| ![](images/hardware_setup.jpg) | ![](images/lcd_output.jpg) |
 <p align="center">
 
 <img src="images/image1.png" width="750"/>
