@@ -156,7 +156,7 @@ Example:
 
 <p align="center">
 
-<img src="images/block_diagram.png" width="750"/>
+<img src="images/reminder process.png" width="750"/>
 
 </p>
 
