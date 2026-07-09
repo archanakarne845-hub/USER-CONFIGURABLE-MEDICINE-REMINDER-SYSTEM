@@ -154,25 +154,12 @@ Example:
 
 # 🔔 Reminder Process
 
-```text
-Read RTC
-    │
-    ▼
-Compare Time
-    │
-    ▼
-Match?
- ┌──┴───┐
- │      │
-No      Yes
- │       │
- │   LCD Alert
- │   Buzzer ON
- │   Wait for EINT1
- │
- ▼
-Continue Monitoring
-```
+<p align="center">
+
+<img src="images/block_diagram.png" width="750"/>
+
+</p>
+
 
 ---
 
