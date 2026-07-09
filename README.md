@@ -51,9 +51,8 @@ Configuration mode is entered using **External Interrupt 0 (EINT0)**, while **Ex
 # 🏗️ System Architecture
 
 <p align="center">
-![Uploading system architecture.png…]()
 
-<img src="images/system_architecture.png" width="800"/>
+<img src="system architecture.png" width="800"/>
 
 </p>
 
