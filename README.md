@@ -1,3 +1,4 @@
+
 # 💊 Medicine Reminder System using LPC2148 ARM7
 
 <p align="center">
@@ -151,6 +152,7 @@ Example:
 | Medicine 3 | 21:15 |
 
 ---
+# 🔔Alert configuration
 
 # 🔔 Reminder Process
 
