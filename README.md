@@ -62,7 +62,7 @@ Configuration mode is entered using **External Interrupt 0 (EINT0)**, while **Ex
 
 <p align="center">
 
-<img src=images/bolck diagram.png" width="750"/>
+<img src="images/bolck diagram.png" width="750"/>
 
 </p>
 
