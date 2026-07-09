@@ -181,7 +181,7 @@ Example:
 
 # 📸 Project Gallery
 
-<p align="center">
+<p align="left">
 
 <img src="images/image1.png" width="750"/>
 
