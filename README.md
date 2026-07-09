@@ -164,29 +164,11 @@ Example:
 ---
 
 # 🔄 Software Flow
+<p align="center">
 
-```text
-Start
- │
- ▼
-Initialize Hardware
- │
- ▼
-Display RTC
- │
- ▼
-Configuration Requested?
- │
- ├──Yes──► Configure RTC / Medicine
- │
- ▼
-Compare Time
- │
- ├──Match──► Reminder
- │
- ▼
-Repeat
-```
+<img src="images/reminder process.png" width="750"/>
+
+</p>
 
 ---
 
