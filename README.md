@@ -233,9 +233,9 @@ Medicine-Reminder-System-using-LPC2148
 
 </p>
 
-<p align="center">
+<p align="left">
 
-<img src="images/image1.png" width="750"/>
+<img src="images/image4.png" width="750"/>
 
 </p>
 
