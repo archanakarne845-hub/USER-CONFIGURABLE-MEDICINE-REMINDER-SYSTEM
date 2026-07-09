@@ -166,7 +166,7 @@ Example:
 # 🔄 Software Flow
 <p align="center">
 
-<img src="images/reminder process.png" width="750"/>
+<img src="images/software workflow.png" width="750"/>
 
 </p>
 
