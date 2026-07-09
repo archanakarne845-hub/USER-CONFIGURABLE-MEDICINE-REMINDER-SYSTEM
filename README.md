@@ -1,4 +1,4 @@
-## 💊 User-Configurable Medicine Reminder System using LPC2148 ARM7
+💊 User-Configurable Medicine Reminder System using LPC2148 ARM7
 ⭐ Overview
 
 The User-Configurable Medicine Reminder System is an embedded healthcare application developed using the LPC2148 ARM7 Microcontroller. The system allows users to configure up to three medicine schedules through a 4×4 Matrix Keypad while continuously monitoring the internal Real-Time Clock (RTC).
