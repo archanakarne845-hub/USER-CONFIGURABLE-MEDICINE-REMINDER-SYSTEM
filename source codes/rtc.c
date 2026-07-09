@@ -5,46 +5,14 @@
 //include LCD header files
 #include "LCD.h"
 
-
-
-   extern s32 hour,min,sec,date,month,year,day;
+ extern s32 hour,min,sec,date,month,year,day;
 
 // Array to hold names of days of the week
 char week[][4] = {"SUN","MON","TUE","WED","THU","FRI","SAT"};
 
 #define _LPC2148
 
-/*int main()
-{
-    // Initialize RTC 
-		RTC_Init();
-    // Initialize the LCD
-		InitLCD();
-	
-    // Set the initial time (hours, minutes, seconds)
-		SetRTCTimeInfo(14,50,00);
-    // Set the initial data (date, month, year)
-		SetRTCDateInfo(2,3,2026);
-    // Set initial day (SUN to SAT )
-		SetRTCDay(MON);
-
-    while (1) 
-    {
-        // Get and display the current time info on LCD
-				GetRTCTimeInfo(&hour,&min,&sec);
-				DisplayRTCTime(hour,min,sec);
-				// Get and display the current date info on LCD
-				GetRTCDateInfo(&date,&month,&year);
-				DisplayRTCDate(date,month,year);
-				// Get and display the current day info on LCD
-				GetRTCDay(&day);
-				DisplayRTCDay(day);
-
-    }
-}
-
-
-Initialize the Real-Time Clock (RTC)
+/*Initialize the Real-Time Clock (RTC)
 This function disables the RTC, sets the prescaler values, 
 and then enables the RTC.
 */
