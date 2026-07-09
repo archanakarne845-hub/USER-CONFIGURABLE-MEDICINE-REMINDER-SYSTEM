@@ -155,7 +155,7 @@ Example:
 # 🔔Alert configuration
 <p align="center">
 
-<img src="images/system architecture.png" width="800"/>
+<img src="images/medicine alert.png" width="800"/>
 
 </p>
 # 🔔 Reminder Process
